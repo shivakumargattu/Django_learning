@@ -11,4 +11,12 @@ def Home(req):
 
 def showLanding_html(req):
     return render(req, "home.html")
-    
+
+def properties(req):
+    return render(req, "properties.html")
+
+def property_details(req):
+    return render(req, "property-details.html")
+
+def contact(req):
+    return render(req, "contact.html")

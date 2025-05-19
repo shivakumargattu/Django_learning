@@ -22,7 +22,11 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("about/", views.About_page),
     path("home/", views.Home),
-    path("landing/", views.showLanding_html)
+    path("landing/", views.showLanding_html),
+    path("properties/",views.properties),
+    path("property-details/", views.property_details),
+    path("contact", views.contact),
+        
     
     
 ]
